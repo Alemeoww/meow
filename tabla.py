@@ -16,3 +16,7 @@ for j in range(cantA):
         #suma=suma+nota
     prom=suma/cantN
     print("el promedio es ", prom)
+    if prom>=4:
+        print("usted aprobó")
+    else:
+        print("usted reprobó")
